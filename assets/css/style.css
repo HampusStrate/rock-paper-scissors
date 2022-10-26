@@ -4,4 +4,25 @@
 
 .chooices {
     background-color: gold;
+    text-align: center;
+}
+
+/* icons */
+
+.icons {
+    text-align: center;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+}
+
+.icons2 {
+    text-align: center;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-right: 50px;
 }
