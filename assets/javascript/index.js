@@ -5,17 +5,17 @@ const yourScoreSpan = document.querySelector('[data-your-score]')
 const SELECTIONS = [
   {
     name: 'rock',
-    icon: '<i class="fa-solid fa-hand-back-fist"></i>',
+    emoji: '✊',
     beats: 'scissors'
   },
   {
     name: 'paper',
-    icon: '<i class="fa-solid fa-hand"></i>',
+    emoji: '✋',
     beats: 'rock'
   },
   {
     name: 'scissors',
-    icon: '<i class="fa-solid fa-hand-scissors"></i>',
+    emoji: '✌',
     beats: 'paper'
   }
 ]
