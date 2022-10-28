@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rock Paper Scissors Game</title>
     <!-- fontawsome icon links -->
     <script src="https://kit.fontawesome.com/1d5f10ccf4.js" crossorigin="anonymous"></script>
-    <title>Rock Paper Scissors Game</title>
+    <script src="assets/javascript/index.js" defer></script>
 </head>
 <body>
-    <!-- text area for the work with descriptions and text -->
-    <header class="text">Rock, Paper, Scissors Game</header>
-    <div class="text">Game rules</div>
-    <p class="text">Rock beats scissor, Scissor beats Paper and Paper beats Rock</p>
-    <!-- buttons for the players to choose what they will play-->
-    <button class="chooices">Rock</button>
-    <button class="chooices">Paper</button>
-    <button class="chooices">Scissors</button>
-    <!-- the icons for rock, paper, scissors -->
-    <div class="icons"><i class="fa-solid fa-hand-back-fist"></i></div>
-    <div class="icons"><i class="fa-solid fa-hand"></i></div>
-    <div class="icons"><i class="fa-solid fa-hand-scissors"></i></div>
-    <div class="icons2"><i class="fa-solid fa-hand-back-fist"></i></div>
-    <div class="icons2"><i class="fa-solid fa-hand"></i></div>
-    <div class="icons2"><i class="fa-solid fa-hand-scissors"></i></div>
+    <!-- the diffrent buttons for the game-->
+    <div class="selections">
+        <button class="selection" data-selection="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+        <button class="selection" data-selection="paper"><i class="fa-solid fa-hand"></i></button>
+        <button class="selection" data-selection="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+    </div>
+    <!-- results for the game -->
+    <div class="results">
+        <div>
+            You
+            <span class="result-score">0</span>
+        </div>
+        <div>
+            Computer
+            <span class="result-score">0</span>
+        </div>
+    </div>
 </body>
 </html>
