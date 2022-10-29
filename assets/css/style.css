@@ -2,6 +2,8 @@ body {
     background-color:cornflowerblue;
 }
 
+/* selection options */
+
 .selections {
     display: flex;
     justify-content: center;
@@ -20,7 +22,7 @@ body {
     transform: scale(1.2);
 }
 
-/* results section*/
+/* results section */
 
 .results {
     display: grid;
