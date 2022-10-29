@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock Paper Scissors Game</title>
-    <!-- fontawsome icon links -->
-    <script src="https://kit.fontawesome.com/1d5f10ccf4.js" crossorigin="anonymous"></script>
-    <script src="assets/javascript/index.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/javascript/index.js" defer></script>
 </head>
 <body>
-    <!-- the diffrent buttons for the game-->
-    <div class="selections">
-        <button class="selection" data-selection="rock">✊</button>
-        <button class="selection" data-selection="paper">✋</button>
-        <button class="selection" data-selection="scissors">✌</button>
+  <div class="selections">
+    <button class="selection" data-selection="rock">✊</button>
+    <button class="selection" data-selection="paper">✋</button>
+    <button class="selection" data-selection="scissors">✌</button>
+  </div>
+  <div class="results">
+    <div>
+      You
+      <span class="result-score" data-your-score>0</span>
     </div>
-    <!-- results for the game -->
-    <div class="results">
-        <div>
-            You
-            <span class="result-score">0</span>
-        </div>
-        <div>
-            Computer
-            <span class="result-score">0</span>
-        </div>
+    <div data-final-column>
+      Computer
+      <span class="result-score" data-computer-score>0</span>
     </div>
+  </div>
 </body>
 </html>
